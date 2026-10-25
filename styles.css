@@ -15,7 +15,7 @@
 }
 .brand-star,.card-symbol,.closing>p>span{
   color:var(--accent);width:28px;height:28px;
-  -webkit-mask-image:url('assets/brand-mark.svg');mask-image:url('assets/brand-mark.svg);
+  -webkit-mask-image:url('assets/brand-mark.svg');mask-image:url('assets/brand-mark.svg');
 }
 .brand-star{margin-left:10px;vertical-align:-3px}
 .card-symbol{width:26px;height:26px}
@@ -25,6 +25,9 @@
 .fact-icon{margin-top:5px}
 .call-arrow,.contact-phone>span[aria-hidden]{width:24px;height:24px}
 .location-icon{width:40px;height:40px;margin-top:35px;border:0;border-radius:0}
+.hero{align-items:start}
+.hero-card{overflow:hidden}
+.hero-copy{padding-top:35px}
 @media(max-width:760px){.brand-star{width:25px;height:25px}.location-icon{margin-top:27px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 
